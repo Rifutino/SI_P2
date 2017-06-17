@@ -1,0 +1,95 @@
+    <!-- Navigation -->
+  <header id="header">
+    <div class="container">
+      <div class="row">
+    <nav id="nav-menu-container" class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="index.html">Inicio</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-left">
+                <li><a href="#reciente">Resultados recientes</a></li>
+              </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="partidos.html">Ingresar partidos</a></li>
+                  <li><a href="">Editar estadisticas jugador</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+  </div>
+</div>
+</header>
+<div style="height:100px" class="col-md-12"><br></div>
+
+
+  <form class="form-group" action="">
+<div class="row">
+  <div class="form-group col-md-4 col-md-offset-4">
+    <label>Fecha del juego: </label><input class="form-control" type="date" min="2017-05-09" max="2017-12-01" value="">
+  </div>
+</div>
+<div class="form-group col-md-3 col-md-offset-2">
+    <label>Local: </label>
+  <select class="form-control" class="" name="equipoL">
+    <option value="1">Equipo 1</option>
+    <option value="2">Equipo 1</option>
+    <option value="3">Equipo 1</option>
+    <option value="4">Equipo 1</option>
+    <option value="5">Equipo 1</option>
+    <option value="6">Equipo 1</option>
+    <option value="7">Equipo 1</option>
+    <option value="8">Equipo 1</option>
+    <option value="9">Equipo 1</option>
+    <option value="10">Equipo 1</option>
+    <option value="11">Equipo 1</option>
+    <option value="12">Equipo 1</option>
+    <option value="13">Equipo 1</option>
+    <option value="14">Equipo 1</option>
+    <option value="15">Equipo 1</option>
+    <option value="16">Equipo 1</option>
+  </select>
+  </div>
+  <div class="text-right form-group col-md-2">
+    <div class="col-md-4">
+    <label for="">Marcador:</label><input name="marcador2" class="form-control" type="text">
+    </div>
+    <div class="col-md-4"><br/><h4>VS</h4></div>
+    <div class="col-md-4">
+      <label for=""><br></label><input name="marcador2" class="form-control" type="text">
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label>Visitante: </label>
+  <select class="form-control" name="equipoV" id="">
+    <option value="1">Equipo 2</option>
+    <option value="2">Equipo 2</option>
+    <option value="3">Equipo 2</option>
+    <option value="4">Equipo 2</option>
+    <option value="5">Equipo 2</option>
+    <option value="6">Equipo 2</option>
+    <option value="7">Equipo 2</option>
+    <option value="8">Equipo 2</option>
+    <option value="9">Equipo 2</option>
+    <option value="10">Equipo 2</option>
+    <option value="11">Equipo 2</option>
+    <option value="12">Equipo 2</option>
+    <option value="13">Equipo 2</option>
+    <option value="14">Equipo 2</option>
+    <option value="15">Equipo 2</option>
+    <option value="16">Equipo 2</option>
+  </select>
+</div>
+  </form>
+</div>
